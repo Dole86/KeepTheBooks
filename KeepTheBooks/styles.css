@@ -1,0 +1,95 @@
+:root {
+  --ktb-purple: #6f3a95;
+  --ktb-light-purple: #8A4FBD;
+  --ktb-dark-text: #53585d;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--ktb-dark-text);
+}
+
+.navbar {
+  background-color: var(--ktb-purple) !important;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #d1baff !important;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--ktb-purple);
+  border-color: var(--ktb-purple);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--ktb-light-purple);
+  border-color: var(--ktb-light-purple);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+}
+
+.hero-section {
+  padding: 5rem 0;
+}
+
+/* Home page feature card style */
+.purple-card {
+  background-color: var(--ktb-purple);
+  color: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  height: 100%;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+  padding-bottom: 3.5rem;
+}
+
+/* Services page card style */
+.service-card .card-body {
+  background-color: var(--ktb-purple);
+  color: white;
+  padding: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.service-card .card-img-top {
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+footer {
+  background-color: var(--ktb-purple);
+  color: white;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+/* Contact page icon styling */
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
